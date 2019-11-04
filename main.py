@@ -9,7 +9,7 @@ example_img = cv2.imread(example_img_path)
 example_img = cv2.resize(src=example_img, dsize=(height, width), interpolation=cv2.INTER_NEAREST)
 
 base_path = 'data'
-name = 'test'
+name = 'test2'
 base_path = os.path.join(base_path, name)
 if not os.path.exists(base_path):
     os.mkdir(base_path)
